@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    background-image: url(cafe-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container{
+    max-width: 120rem;
+    margin:  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.cofe-1{
+    background-color:#54463b; 
+    border-radius: 9px;
+}
+
+.cofe-2{
+    background-color:#54463b; 
+    border-radius: 9px;
+}
+
+.cofe-content-1{
+    display: flex;
+    gap: 2rem;
+    padding: 1.8rem 3.6rem;
+}
+.cofe-content-2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1.8rem 3.6rem;
+    gap: 2rem;
+}
+.cofe-text{
+    margin-left: 2rem;
+}
+
+.cofe-text-1{
+    padding-right: 4rem;
+    text-align: left;
+}
+
+.cofe-text-2{
+    padding-left: 4rem;
+    text-align: right;
+}
+
+h1{
+    font-size: 4rem;
+    color: #555;
+    padding: 1.2rem 2.4rem;
+    background-color: #fff;
+    border-radius: 9px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+h3{
+    color: #ffa94d;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+p{
+    color: #fff;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
